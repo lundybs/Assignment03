@@ -3,42 +3,51 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="WebsiteCSS.css" />
 </head>
 <body>
-    <header>
-        <p id="headerlink">
-        <a href="/bookcat/">Open right MEOW! Book a cat &rarr;</a></p>
+    <header class="topbanner">
+        <p id="headerlink"><a href="/bookcat/">Open right MEOW! Book a cat &rarr;</a></p>
         
-        <h1>Kitties To Go!</h1>
-        <h3>Seattle's premiere drive-thru cat rentals</h3>
+        <h1 id="maintitle">Kitties To Go!</h1>
+        <h3 class="h3">Seattle's premiere drive-thru cat rentals</h3>
     </header>
     <nav>
-        <a href="/about/">About</a>
-        <a href="/rates/">Rates</a>
-        <a href="/liabilityrelesase/">Libility Release</a>
-        <a href="/kittyprofiles/">Kitty Profile</a>
-        <a href="/bookacat/">Book a Cat</a>
+        <a id="navlink" href="/about/">About</a>
+        <a id="navlink" href="/rates/">Rates</a>
+        <a id="navlink" href="/liabilityrelesase/">Libility Release</a>
+        <a id="navlink" href="/kittyprofiles/">Kitty Profile</a>
+        <a id="navlink" href="/bookacat/">Book a Cat</a>
     </nav>
-    <section>
-        <h1>THe Kitties To Go story</h1>
-        <img src="/cool-cat.jpg" alt="Cat with sunglasses" style="width:200px;height:100px"/>
-        <img src="cat-pictures.jpg" alt="Cat sitting on hand rail of a highrise" style="width:200px;height:100px"/>
+    <div id="storytext">
+        <div id="rightpicture">
+            <h4>Cat of the Week</h4>
+            <img src="cool-cat.jpg" alt="Cat with sunglasses" style="width:200px;height:100px" />
+            <article>The Biscuit</article>
+            All she was to do is break you walls <a  id="divrightbooking" href="bookcat">Book Now &rarr;</a><br />
+            <h4>Fan Favorite</h4>
+            <img src="cat-pictures.jpg" alt="Cat sitting on hand rail of a highrise" style="width:200px;height:100px" />
+            <h4>Odin</h4>
+            <a id="divrightbooking" href="bookcat">Book now &rarr;</a>
+        </div>
+        <h1>The Kitties To Go story</h1>
         <p>Cat ipsum dolor sit amey, has closed eys but still sees you meow. Scratch at the door then walk destroy the blinds for curl
         into a furry donut swat turds around the house kick up litter thug cat stare at ceiling lit. Intently start at the same spat paw
         at beetle and eat it before it gets away scamper</p>
 
         <h1>Testimonials</h1>
         <p><i>"Please stop looking at your phone and pet me.
-            Loung in the doorway eat and than sleep on your face meowwww meowwww"</i> - Jeremy</p>
-        <p><i>"Meow get video posted to the internet for chasing red dot."</i> -Jennny from the block</p>
-    </section>
+    Loung in the doorway eat and than sleep on your face meowwww meowwww" - Jeremy</i></p>
+        <p><i>"Meow get video posted to the internet for chasing red dot." - Jennny from the block</i></p>
+    </div>
+  
     <footer>
-        <p>
+        <p id="contact">
             Kitties To Go!<br />
-            <a href="tel:+5558675309">(555)867-5309</a><br />
-            <a href="mailto:kittestogo@catmail.com">Kittiestogo@catmail.com</a>
+            (555)867-5309<br />
+            <a id="maillink" href="mailto:kittestogo@catmail.com">Kittiestogo@catmail.com</a>
         </p>
-        <p>
+        <p id="copyright">
             Please Cat Responsibly<br />
             copyright 2016 Kitties To Go!, LLC
         </p>

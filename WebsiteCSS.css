@@ -1,8 +1,56 @@
-﻿body {
-   
-}
-
-#headerlink {
+﻿#headerlink {
     text-align: right;
     color: red;
 }
+
+#maintitle{
+    color: white;
+}
+.h3{
+    color: grey;
+}
+
+#rightpicture{
+    float: right;
+    width: 15rem;
+}
+
+#copyright{
+    text-align: center;
+    color: grey
+}
+
+.topbanner{
+    background-color: black;
+}
+
+header{
+     background-color: black;
+}
+
+footer{
+    background-color: black;
+}
+#divrightbooking{
+    text-align: right;
+    color: red;
+}
+
+#contact{
+color: white;
+}
+
+nav
+{
+    background-color: grey;
+}
+
+#navlink {
+    color: purple;
+}
+
+section {
+    column-count: 2;
+    -webkit-column-count: 2;
+}
+
