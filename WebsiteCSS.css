@@ -10,13 +10,33 @@
     color: grey;
 }
 
+#storytext{
+    padding: 1px;
+    height: 20rem;
+
+}
+
 #rightpicture{
     border: 1px solid black;
     float: right;
     width: 15rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10px;
+}
+#catprofile{
+    width: auto;
+    padding: 1px;
+}
+
+#glassescat{
+    width: 20rem;
+}
+
+#ledgecat{
+    width: 20rem;
 }
 
 #copyright{
@@ -30,10 +50,14 @@
 
 header{
      background-color: black;
+     padding: 1px;
+     padding-left: 20px;
 }
 
 footer{
     background-color: black;
+    padding: 1px;
+    padding-left: 20px;
 }
 #divrightbooking{
     text-align: right;
@@ -41,12 +65,12 @@ footer{
 }
 
 #contact{
-color: white;
+    color: white;
 }
 
-nav
-{
-    background-color: grey;
+nav{
+    padding: 10px;
+    background-color: lightgray;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -55,9 +79,3 @@ nav
 #navlink {
     color: purple;
 }
-
-section {
-    column-count: 2;
-    -webkit-column-count: 2;
-}
-
