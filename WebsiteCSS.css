@@ -11,8 +11,12 @@
 }
 
 #rightpicture{
+    border: 1px solid black;
     float: right;
     width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #copyright{
@@ -43,6 +47,9 @@ color: white;
 nav
 {
     background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #navlink {
