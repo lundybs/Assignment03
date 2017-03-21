@@ -1,4 +1,8 @@
-﻿#headerlink {
+﻿body{
+    width: 45rem;
+}
+
+#headerlink {
     text-align: right;
     color: red;
 }
@@ -13,18 +17,17 @@
 
 #storytext{
     padding: 1px;
-    height: 20rem;
     font: 16px arial, verdana;
 }
 
 #catofweek{
     width: 80%;
-    align-self: center;
+    /*align-self: center;*/
     height: 30%;
 }
 
 main{
-    height: 24rem;
+    height: 29rem;
 }
 
 #fanfav{
@@ -35,14 +38,10 @@ main{
 
 aside{
     border: 1px solid black;
-    margin: 20px 4px 1px 4px;
+    padding: 0px 0px 10px 10px;
+    margin: 20px 4px 11px 10px;
     float: right;
     width: 15em;
-    height: 20em;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-shrink: 3;
     text-align:center;
     font: bold 14px;
     
@@ -83,9 +82,17 @@ footer{
     font: bold;
 }
 
-#divrightbooking{
+#asiderightbooking{
     text-align: right;
     color: red;
+}
+
+#profilecaption{
+    text-align: left;
+}
+
+h3{
+    display: inline;
 }
 
 #catoftheweekbook{
@@ -105,3 +112,6 @@ nav{
     justify-content: space-between;
 }
 
+#maillink{
+    color: red;
+}
